@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    >
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100px"
+        android:textColor="#ffffff"
+        android:text="Score:       20     "/>
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Temps: 00:2:23"
+        android:textSize="100px"/>
+
+</LinearLayout>

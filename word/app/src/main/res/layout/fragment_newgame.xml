@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="91dp"
+        android:text="About"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="374dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Word games (also called word game puzzles or word search games) are spoken or board games often designed to test ability with language or to explore its properties. Word games are generally used as a source of entertainment, but can additionally serve an educational purpose. Young children can enjoy playing games such as Hangman, while naturally developing important language skills like spelling. Researchers have found that adults who regularly solved crossword puzzles, which require familiarity with a larger vocabulary, had better brain function later in life.Popular word-based game shows have been a part of television and radio throughout broadcast history, including Spelling Bee (the first televised game show) and Wheel of Fortune (the longest-running syndicated game show in the United States).">
+
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/french"
+        android:icon="@drawable/de_round"
+        android:title="french"
+        app:showAsAction="always" />
+
+    <item
+        android:title="English"
+        android:icon="@drawable/de"
+        android:id="@+id/english"
+        app:showAsAction="always"/>
+
+</menu>

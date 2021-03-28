@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="#448AFF">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/white" />
+
+        <TextView
+            android:id="@+id/T1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="@android:color/background_light"
+            android:textSize="100px"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:paddingTop="75dp"
+            android:text="%"
+            android:textColor="@android:color/background_light"
+            android:textSize="100px" />
+
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="170dp"
+            android:text="Veuillez Patientez....."
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp" />
+
+        />
+    </RelativeLayout>
+
